@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Eggs</title>
+</head>
+<body>
+    <div id="conrainer">
+        <div id="score_help"> Score:
+            <span id="score">0</span>
+            lifes:
+            <span id="life">0</span>
+        </div>
+        
+        <div id="branch"></div>
+
+        <div id="hen1" class="hen"></div>
+        <div id="hen2" class="hen"></div>
+        <div id="hen3" class="hen"></div>
+
+        <div id="egg1" class="egg" data-bullseye="1"></div>
+        <div id="egg2" class="egg" data-bullseye="2"></div>
+        <div id="egg3" class="egg" data-bullseye="3"></div>
+
+        <div id="bullseye1" class="bullseye"></div>
+        <div id="bullseye2" class="bullseye"></div>
+        <div id="bullseye3" class="bullseye"></div>
+
+        <div id="basket">
+            <span id="score_1"></span>
+        </div>
+
+        <div id="floor">restart</div>
+
+        <button id="floor"></button>
+    </div>
+    <script src="jquery.min.js"></script>
+    <script src="collision_detection.js"></script>
+    <script src="variables.js"></script>
+    <script src="functions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
